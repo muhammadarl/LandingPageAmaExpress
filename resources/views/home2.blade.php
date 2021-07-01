@@ -174,12 +174,7 @@
                                 <ol>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
-<<<<<<< HEAD
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit,
-                                            omnis.</p>
-=======
                                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, omnis. Lorem, ipsum.</p>
->>>>>>> ea86929c436deec4d3d3db108f8a77b56d0b75cd
                                     </div>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
