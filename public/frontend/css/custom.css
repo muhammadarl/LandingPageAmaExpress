@@ -9,17 +9,18 @@
 
 .navbar.scrolled .nav-link,
 .navbar.scrolled .brand {
-    color: #2d4059;
+    color: #fafafa !important;
 }
 
 .fiturLacak {
     border-radius: 10px;
+    padding-left: 40px;
     margin-top: -80px;
-    background-color: white;
+    background-color: #fff;
 }
 
 .fiturFitur {
-    width: 100%;
+    width: 90%;
 }
 
 .logo_nav {
@@ -27,6 +28,9 @@
 }
 
 .profile-company {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 64px 0;
+}
+
+.service-company {
+    background-color: #e85d07;
 }
