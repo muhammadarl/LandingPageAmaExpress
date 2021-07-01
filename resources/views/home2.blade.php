@@ -174,15 +174,18 @@
                                 <ol>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, omnis.</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit,
+                                            omnis.</p>
                                     </div>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, omnis.</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit,
+                                            omnis.</p>
                                     </div>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, omnis.</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit,
+                                            omnis.</p>
                                     </div>
                                 </ol>
                             </div>
@@ -193,6 +196,7 @@
         </div>
 
     </section>
+
     <section class="service-company" id="service">
         <div class="container">
             <div class="row align-items-start">
@@ -288,42 +292,85 @@
             </div>
         </div>
     </section>
-    <section class="contact-company" id="contact">
-        <div class="title-subtitle-contact text-center">
-            <h1 class="contact-title">Get In Touch</h1>
-            <p class="contact-subtitle">
-                Lorem ipsum dolor sit amet.
-            </p>
-        </div>
+
+    <!-- Start Contact -->
+    <section id="contact-us" class="contact-us section">
         <div class="container">
-            <form>
+            <div class="contact-head">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input type="text" class="form-control" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Subject</label>
-                            <input type="text" class="form-control" aria-describedby="emailHelp">
+                    <div class="col-lg-8 col-12">
+                        <div class="form-main">
+                            <div class="title">
+                                <h4>Get in touch</h4>
+                                <h3>Write us a message</h3>
+                            </div>
+                            <form class="form" method="post" action="mail/mail.php">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label>Nama Amda<span>*</span></label>
+                                            <input name="name" type="text" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label>Email Anda<span>*</span></label>
+                                            <input name="email" type="email" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group message">
+                                            <label>Pesan Anda<span>*</span></label>
+                                            <textarea name="message" placeholder=""></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group button">
+                                            <button type="submit" class="btn ">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
-                            <button type="submit" class="btn btn-send btn__color2">Send</button>
+                    <div class="col-lg-4 col-12">
+                        <div class="single-head">
+                            <div class="single-info">
+                                <i class="uil uil-phone-alt"></i>
+                                <h4 class="title">No Telepon:</h4>
+                                <ul>
+                                    <li>+62 518452</li>
+                                    <li>021 5215201</li>
+                                </ul>
+                            </div>
+                            <div class="single-info">
+                                <i class="uil uil-envelope"></i>
+                                <h4 class="title">Email:</h4>
+                                <ul>
+                                    <li><a href="#">info@company.com</a></li>
+                                    <li><a href="#">support@company.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="single-info">
+                                <i class="uil uil-map-marker"></i>
+                                <h4 class="title">Alamat:</h4>
+                                <ul>
+                                    <li>Banten, Indonesia</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
     </section>
+    <!--/ End Contact -->
+
+    <!-- Map Section -->
+    <div class="map-section">
+        <div id="myMap"></div>
+    </div>
+    <!--/ End Map Section -->
     <footer>
         <div class="container footer-company">
             <div class="row">
