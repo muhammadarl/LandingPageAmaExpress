@@ -1,0 +1,29 @@
+.title-data-perusahaan {
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.subtitle-data-perusahaan {
+    margin-bottom: 1px;
+}
+
+.container-print {
+    width: 768px;
+    left: 0;
+    right: 0;
+}
+
+.ukuran-tulisan {
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.ukuranGambarKwitansi {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.ukuranBarcode {
+    margin-top: -10px;
+    width: 100px;
+}

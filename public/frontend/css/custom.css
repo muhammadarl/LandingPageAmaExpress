@@ -1,0 +1,32 @@
+.navbar {
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled {
+    background-color: #e85d07 !important;
+    transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link,
+.navbar.scrolled .brand {
+    color: #2d4059;
+}
+
+.fiturLacak {
+    border-radius: 10px;
+    margin-top: -80px;
+    background-color: white;
+}
+
+.fiturFitur {
+    width: 100%;
+}
+
+.logo_nav {
+    width: 150px;
+}
+
+.profile-company {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
