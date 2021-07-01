@@ -24,7 +24,8 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent scrolled">
+    <!-- Responsive navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolled">
         <div class="container">
             <a class="navbar-brand" href="#"><img class="logo_nav" src="{{asset('frontend/img/logo.png')}}" alt=""
                     srcset=""></a>
@@ -94,11 +95,10 @@
             </a>
         </div>
     </header>
-    <!-- Responsive navbar-->
 
     <!-- Page content-->
     <div class="container">
-        <section class="fiturFitur">
+        <section class="fiturFitur mx-auto">
             <div class="row d-flex flex-column align-items-center">
                 <div class="col fiturLacak">
                     <h2><i class="uil uil-search"></i>Lacak Paket</h2>
@@ -117,7 +117,7 @@
         <div class="container">
             <div class="deskripsi-perusahaan">
                 <div class="title-subtitle-contact">
-                    <h1 class="company-title text-capitalize"><i class="uil uil-building"></i>perusahaan</h1>
+                    <h1 class="company-title text-capitalize"><i class="uil uil-building"></i> perusahaan</h1>
                     <p class="company-subtitle">
                         Lorem ipsum dolor sit amet.
                     </p>
@@ -131,13 +131,13 @@
                             <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                 role="tab" aria-controls="v-pills-profile" aria-selected="false">Visi & Misi </a>
                             <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
-                                role="tab" aria-controls="v-pills-messages" aria-selected="false">Niali-Nilai
+                                role="tab" aria-controls="v-pills-messages" aria-selected="false">Nilai-Nilai
                                 Perusahaan</a>
                         </div>
                     </div>
                     <div class="col-9">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            <div class="tab-pane fade show active text-justify" id="v-pills-home" role="tabpanel"
                                 aria-labelledby="v-pills-home-tab">
                                 <h1 class="text-uppercase">Profil</h1>
                                 <h4 class="text-uppercase">PT. Almanthinu Artha</h4>
@@ -152,7 +152,7 @@
                                     similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
                                     numquam totam neque alias officia?</p>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            <div class="tab-pane fade text-justify" id="v-pills-profile" role="tabpanel"
                                 aria-labelledby="v-pills-profile-tab">
                                 <h1 class="text-uppercase">Visi & Misi</h1>
                                 <div class="visi-misi d-flex flex-column align-items-center">
@@ -168,13 +168,14 @@
                                         molestiae.</p>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            <div class="tab-pane fade text-justify" id="v-pills-messages" role="tabpanel"
                                 aria-labelledby="v-pills-messages-tab">
                                 <h1 class="text-uppercase">nilai-nilai perusahaan</h1>
                                 <ol>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, omnis. Lorem, ipsum.</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit,
+                                            omnis.</p>
                                     </div>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
@@ -193,56 +194,122 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="service-company" id="service">
         <div class="container">
-            <div class="row align-items-start">
-                <div class="col-lg-3 pt-4">
-                    <h1>Service</h1>
-                    <p class="deskripsi-service-items">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
-                        repellendus vitae numquam alias
-                        exercitationem totam omnis esse, facilis quod. Atque magnam quis alias odio laudantium.</p>
-                    <div class="service-rating d-flex flex-row bd-highlight mb-3">
-                        <p class="nilai-service">4.9</p>
-                        <div class="nilai-rating">
-                            <p class="jumlah-rating">20K Rating</p>
-                            <div class="bintang-rating">
-                                <i class="uil uil-star"></i>
-                                <i class="uil uil-star"></i>
-                                <i class="uil uil-star"></i>
-                                <i class="uil uil-star"></i>
-                                <i class="uil uil-star"></i>
-                            </div>
+            <div class="deskripsi-perusahaan">
+                <div class="title-subtitle-contact">
+                    <h1 class="company-title text-capitalize"><i class="uil uil-truck"></i> pelayanan</h1>
+                    <p class="company-subtitle">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-udara-tab" data-toggle="pill" href="#v-pills-udara"
+                                role="tab" aria-controls="v-pills-udara" aria-selected="true">Cargo Udara</a>
+                            <a class="nav-link" id="v-pills-laut-tab" data-toggle="pill" href="#v-pills-laut"
+                                role="tab" aria-controls="v-pills-laut" aria-selected="false">Cargo Laut</a>
+                            <a class="nav-link" id="v-pills-darat-tab" data-toggle="pill" href="#v-pills-darat"
+                                role="tab" aria-controls="v-pills-darat" aria-selected="false">Cargo Darat</a>
+                            <a class="nav-link" id="v-pills-alatBerat-tab" data-toggle="pill" href="#v-pills-alatBerat"
+                                role="tab" aria-controls="v-pills-alatBerat" aria-selected="false">Penyewaan Alat Berat</a>
+                            <a class="nav-link" id="v-pills-kapalICT-tab" data-toggle="pill" href="#v-pills-kapalICT"
+                                role="tab" aria-controls="v-pills-kapalICT" aria-selected="false">Penyewaan Kapal LCT</a>
+                            <a class="nav-link" id="v-pills-gudang-tab" data-toggle="pill" href="#v-pills-gudang"
+                                role="tab" aria-controls="v-pills-gudang" aria-selected="false">Penyewaan Gudang</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 text-center">
-                    <i class="uil uil-car-sideview service__icon"></i>
-                    <div class="kumpulan-deskripsi-items">
-                        <h2 class="subtitle-service-items">Local Delivery</h2>
-                        <p class="deskripsi-service-items">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Laborum ratione cum temporibus distinctio a libero aperiam, sed ullam unde commodi mollitia
-                            obcaecati illum ab beatae?</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 text-center">
-                    <i class="uil uil-truck service__icon"></i>
-                    <div class="kumpulan-deskripsi-items">
-                        <h2 class="subtitle-service-items">Country Delivery</h2>
-                        <p class="deskripsi-service-items">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Laborum ratione cum temporibus distinctio a libero aperiam, sed ullam unde commodi mollitia
-                            obcaecati illum ab beatae?</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 text-center">
-                    <i class="uil uil-plane service__icon"></i>
-                    <div class="kumpulan-deskripsi-items">
-                        <h2 class="subtitle-service-items">International Delivery</h2>
-                        <p class="deskripsi-service-items">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Laborum ratione cum temporibus distinctio a libero aperiam, sed ullam unde commodi mollitia
-                            obcaecati illum ab beatae?</p>
+                    <div class="col-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active text-justify" id="v-pills-udara" role="tabpanel"
+                                aria-labelledby="v-pills-udara-tab">
+                                <h1 class="text-uppercase">Cargo Udara</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
+                                    architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                    temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
+                                    odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                    iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
+                                    Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                    quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
+                                    similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                    numquam totam neque alias officia?</p>
+                            </div>
+                            <div class="tab-pane fade text-justify" id="v-pills-laut" role="tabpanel"
+                                aria-labelledby="v-pills-laut-tab">
+                                <h1 class="text-uppercase">Cargo Laut</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
+                                    architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                    temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
+                                    odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                    iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
+                                    Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                    quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
+                                    similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                    numquam totam neque alias officia?</p>
+                            </div>
+                            <div class="tab-pane fade text-justify" id="v-pills-darat" role="tabpanel"
+                                aria-labelledby="v-pills-darat-tab">
+                                <h1 class="text-uppercase">Cargo Darat</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
+                                    architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                    temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
+                                    odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                    iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
+                                    Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                    quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
+                                    similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                    numquam totam neque alias officia?</p>
+                            </div>
+                            <div class="tab-pane fade text-justify" id="v-pills-alatBerat" role="tabpanel"
+                                aria-labelledby="v-pills-alatBerat-tab">
+                                <h1 class="text-uppercase">Penyewaan Alat Berat</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
+                                    architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                    temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
+                                    odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                    iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
+                                    Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                    quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
+                                    similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                    numquam totam neque alias officia?</p>
+                            </div>
+                            <div class="tab-pane fade text-justify" id="v-pills-kapalICT" role="tabpanel"
+                                aria-labelledby="v-pills-kapalICT-tab">
+                                <h1 class="text-uppercase">Penyewaan Kapal ICT</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
+                                    architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                    temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
+                                    odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                    iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
+                                    Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                    quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
+                                    similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                    numquam totam neque alias officia?</p>
+                            </div>
+                            <div class="tab-pane fade text-justify" id="v-pills-gudang" role="tabpanel"
+                                aria-labelledby="v-pills-gudang-tab">
+                                <h1 class="text-uppercase">Penyewaan Gudang</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
+                                    architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                    temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
+                                    odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                    iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
+                                    Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                    quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
+                                    similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                    numquam totam neque alias officia?</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -427,5 +494,4 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
     <script src="{{url('frontend/js/custom.js')}}"></script>
-
 </html>
