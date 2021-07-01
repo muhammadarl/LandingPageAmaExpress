@@ -174,7 +174,7 @@
                                 <ol>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, omnis.</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, omnis. Lorem, ipsum.</p>
                                     </div>
                                     <div class="item-nilai-perusahaan">
                                         <li>Lorem ipsum dolor sit amet.</li>
