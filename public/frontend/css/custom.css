@@ -54,6 +54,11 @@
 /* End of HEADER */
 
 
+.carousel-inner .carousel-item h5 {
+    margin-bottom: 90%;
+    font-size: 50px;
+}
+
 
 /* MAIN */
 .fiturLacak {
@@ -64,7 +69,11 @@
 }
 
 .fiturFitur {
-    width: 50%;
+    width: 80%;
+}
+
+.fiturFitur h2 {
+    font-size: 30px;
 }
 
 .logo_nav {
@@ -115,11 +124,22 @@
     font-weight: 600;
 }
 
+.contact-us .contact-head .single-head h4 ul li {
+    font-size: 12px;
+}
+
 .contact-us .single-head {
     padding: 50px;
-    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     height: 98.5%;
-    border-radius: 10px;
+    display: flex;
+}
+
+.contact-us .single-head .single-info h4 {
+	font-weight: 700;
+}
+
+.contact-us .single-head .single-info span {
+	font-weight: 350;
 }
 
 .contact-us .single-info {
@@ -149,7 +169,7 @@
 }
 
 .contact-us .single-info ul li a {
-    font-weight: 400;
+    font-size: 12px;
 }
 
 .contact-us .single-info ul li a:hover {
@@ -158,9 +178,8 @@
 
 .contact-us .single-info .title {
     margin-bottom: 10px;
-    font-weight: 500;
-    color: #333;
-    font-size: 18px;
+    color: rgb(3, 3, 3);
+    font-size: 15px;
 }
 
 .contact-us .form-main {
@@ -241,6 +260,11 @@ footer {
         height: 750px;
     }
 
+    .carousel-inner .carousel-item h5 {
+        margin-bottom: 30%;
+        font-size: 50px;
+    }
+
     /* HEADER */
     .navbar {
         transition: background-color 200ms linear;
@@ -301,8 +325,17 @@ footer {
     .contact-us .single-head {
         padding: 50px;
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
-        height: 98.5%;
+        height: 100%;
         border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .contact-us .single-head .single-info h4 {
+        font-weight: 700;
+    }
+
+    .contact-us .single-head .single-info span {
+        font-weight: 350;
     }
 
     .contact-us .single-info {
@@ -347,7 +380,7 @@ footer {
 
     .contact-us .form-main {
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
-        padding: 50px;
+        padding: 73px;
         border-radius: 10px;
     }
 
