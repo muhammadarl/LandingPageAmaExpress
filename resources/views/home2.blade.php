@@ -21,9 +21,19 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-aos-easing="ease" data-aos-duration="400">
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="loading">
+            <img src="{{asset('frontend/img/logo.png')}}" width="150">
+        </div>
+    </div>
+    <!-- End of PRELOADER -->
+
     <header>
         <!-- NAVBAR -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolled">
@@ -78,7 +88,7 @@
     
     <main>
         <!-- FITUR LACAK PAKET -->
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
             <section class="fiturFitur mx-auto">
                 <div class="row d-flex flex-column align-items-center">
                     <div class="col fiturLacak">
@@ -98,7 +108,7 @@
 
         <!-- TENTANG KAMI -->
         <section class="profile-company" id="about">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="deskripsi-perusahaan">
                     <div class="title-subtitle-contact">
                         <h1 class="company-title text-capitalize"><i class="uil uil-building"></i> perusahaan</h1>
@@ -183,7 +193,7 @@
         
         <!-- LAYANAN -->
         <section class="service-company" id="service">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
                 <div class="deskripsi-perusahaan">
                     <div class="title-subtitle-contact">
                         <h1 class="company-title text-capitalize"><i class="uil uil-truck"></i> pelayanan</h1>
@@ -346,7 +356,7 @@
 
         <!-- KONTAK -->
         <section id="contact" class="contact-us section">
-            <div class="container">
+            <div class="container" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="contact-head">
                     <div class="row">
                         <div class="col-lg-8 col-12">
@@ -475,11 +485,16 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
     <script src="{{url('frontend/js/custom.js')}}"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </html>
