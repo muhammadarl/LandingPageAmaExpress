@@ -30,8 +30,6 @@
 }
 /* End of PRELOADER */
 
-
-
 /* HEADER */
 .navbar {
     transition: background-color 200ms linear;
@@ -49,39 +47,41 @@
 }
 
 .carousel-inner {
-    height: 350px;
+    height: 800px;
+}
+
+.carousel-inner img {
+    filter: brightness(70%);
+}
+
+.carousel-inner .carousel-item h2 {
+    margin-bottom: 33vh;
+    background-color: #e85d07;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
 }
 /* End of HEADER */
 
-
-.carousel-inner .carousel-item h5 {
-    margin-bottom: 90%;
-    font-size: 50px;
+/* MAIN */
+.fiturFitur {
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
+    width: 70%;
 }
 
-
-/* MAIN */
 .fiturLacak {
     border-radius: 10px;
-    padding-left: 40px;
     margin-top: -45px;
     background-color: #fff;
-}
-
-.fiturFitur {
-    width: 80%;
-}
-
-.fiturFitur h2 {
-    font-size: 30px;
+    padding: 32px 24px !important;
 }
 
 .logo_nav {
-    width: 100px;
+    width: 150px;
 }
 
 .profile-company {
-    padding: 25vh 0;
+    padding: 10vh 0;
 }
 
 .profile-company .nav-link.active {
@@ -94,7 +94,7 @@
 
 .service-company {
     background-color: #e85d07;
-    padding: 25vh 0;
+    padding: 10vh 0;
 }
 
 .service-company .nav-link.active {
@@ -107,79 +107,27 @@
 }
 
 .contact-us {
-    padding: 20vh 0;
-}
-
-.contact-us .title {
-    margin-bottom: 30px;
+    padding: 10vh 0;
 }
 
 .contact-us .title h4 {
-    margin-bottom: 5px;
     color: #e85d07;
 }
 
 .contact-us .title h3 {
-    text-transform: capitalize;
     font-weight: 600;
-}
-
-.contact-us .contact-head .single-head h4 ul li {
-    font-size: 12px;
-}
-
-.contact-us .single-head {
-    padding: 50px;
-    height: 98.5%;
-    display: flex;
-}
-
-.contact-us .single-head .single-info h4 {
-	font-weight: 700;
-}
-
-.contact-us .single-head .single-info span {
-	font-weight: 350;
-}
-
-.contact-us .single-info {
-    text-align: left;
-    margin-bottom: 30px;
 }
 
 .contact-us .single-info i {
     color: #fff;
     display: inline-block;
-    margin-bottom: 15px;
-    height: 40px;
-    width: 40px;
+    height: 42px;
+    width: 42px;
     display: block;
     text-align: center;
     border-radius: 3px;
-    line-height: 40px;
+    line-height: 42px;
     background: #e85d07;
-}
-
-.contact-us .single-info ul .contact-us .single-info ul li {
-    margin-bottom: 5px;
-}
-
-.contact-us .single-info ul li:last-child {
-    margin-bottom: 0;
-}
-
-.contact-us .single-info ul li a {
-    font-size: 12px;
-}
-
-.contact-us .single-info ul li a:hover {
-    color: #e85d07;
-}
-
-.contact-us .single-info .title {
-    margin-bottom: 10px;
-    color: rgb(3, 3, 3);
-    font-size: 15px;
 }
 
 .contact-us .form-main {
@@ -188,30 +136,7 @@
     border-radius: 10px;
 }
 
-.contact-us .form .form-group input {
-    height: 48px;
-    line-height: 48px;
-    width: 100%;
-    border: 1px solid #e6e2f5;
-    padding: 0px 20px;
-    color: #333;
-    border-radius: 0px;
-    font-weight: 400;
-}
-
-.contact-us .form .form-group textarea {
-    height: 180px;
-    width: 100%;
-    border: 1px solid #e6e2f5;
-    padding: 15px 20px;
-    color: #333;
-    border-radius: 0px;
-    resize: none;
-    font-weight: 400;
-}
-
 .contact-us .form .form-group label {
-    color: #333;
     position: relative;
 }
 
@@ -223,28 +148,24 @@
     top: 4px;
 }
 
-.contact-us .form .button {
-    margin: 0;
+.contact-us .form .form-group textarea {
+    resize: none;
 }
 
 .contact-us .form .button .btn {
-    height: 50px;
-    border: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
     background-color: #e85d07;
 }
+
+.contact-us .form .button .btn:hover {
+    background-color: #d35609;
+}
 /* End of MAIN */
-
-
 
 /* FOOTER */
 footer {
     background-color: #e85d07;
     padding: 0;
-}
-
-.footer-company {
-    padding-bottom: 32px;
 }
 
 .footer-copy {
@@ -253,200 +174,52 @@ footer {
 }
 /* End of FOOTER */
 
-/* Dekstop Version */
-@media (min-width: 992px) {
-    /* CAROUSEL */
+
+
+/*** MOBILE VERSION ***/
+@media (max-width: 992px) {
     .carousel-inner {
-        height: 750px;
+        height: 600px;
     }
 
-    .carousel-inner .carousel-item h5 {
-        margin-bottom: 30%;
-        font-size: 50px;
-    }
-
-    /* HEADER */
-    .navbar {
-        transition: background-color 200ms linear;
-    }
-
-    .navbar.scrolled {
-        background-color: #e85d07 !important;
-        box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
-        transition: background-color 200ms linear;
-    }
-
-    .navbar.scrolled .nav-link,
-    .navbar.scrolled .brand {
-        color: #fafafa !important;
-    }
-    /* End of HEADER */
-
-    /* MAIN */
-    .fiturLacak {
-        border-radius: 10px;
-        padding-left: 40px;
-        margin-top: -40px;
-        background-color: #fff;
+    .carousel-inner .carousel-item h2 {
+        margin-bottom: 43vh;
     }
 
     .fiturFitur {
-        width: 50%;
-    }
-
-    .logo_nav {
-        width: 150px;
-    }
-
-    .service-company {
-        background-color: #e85d07;
-        padding: 20vh 0;
-    }
-
-    .contact-us {
-        padding: 20vh 0;
-    }
-
-    .contact-us .title {
-        margin-bottom: 30px;
+        width: 90%;
     }
 
     .contact-us .title h4 {
-        font-weight: 500;
-        margin-bottom: 5px;
-        color: #e85d07;
+        font-size: 18px;
     }
 
     .contact-us .title h3 {
-        text-transform: capitalize;
-        font-weight: 600;
-    }
-
-    .contact-us .single-head {
-        padding: 50px;
-        box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
-        height: 100%;
-        border-radius: 10px;
-        flex-direction: column;
-    }
-
-    .contact-us .single-head .single-info h4 {
-        font-weight: 700;
-    }
-
-    .contact-us .single-head .single-info span {
-        font-weight: 350;
-    }
-
-    .contact-us .single-info {
-        text-align: left;
-        margin-bottom: 30px;
-    }
-
-    .contact-us .single-info i {
-        color: #fff;
-        display: inline-block;
-        margin-bottom: 15px;
-        height: 40px;
-        width: 40px;
-        display: block;
-        text-align: center;
-        border-radius: 3px;
-        line-height: 40px;
-        background: #e85d07;
-    }
-
-    .contact-us .single-info ul .contact-us .single-info ul li {
-        margin-bottom: 5px;
-    }
-
-    .contact-us .single-info ul li:last-child {
-        margin-bottom: 0;
-    }
-
-    .contact-us .single-info ul li a {
-        font-weight: 400;
-    }
-
-    .contact-us .single-info ul li a:hover {
-        color: #e85d07;
-    }
-
-    .contact-us .single-info .title {
-        margin-bottom: 10px;
-        font-weight: 500;
-        color: #333;
+        font-size: 26px;
     }
 
     .contact-us .form-main {
-        box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
-        padding: 73px;
-        border-radius: 10px;
+        margin-bottom: 32px;
     }
 
-    .contact-us .form .form-group input {
-        height: 48px;
-        line-height: 48px;
-        width: 100%;
-        border: 1px solid #e6e2f5;
-        padding: 0px 20px;
-        color: #333;
-        border-radius: 0px;
-        font-weight: 400;
+    .contact-us .single-head {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
     }
 
-    .contact-us .form .form-group textarea {
-        height: 180px;
-        width: 100%;
-        border: 1px solid #e6e2f5;
-        padding: 15px 20px;
-        color: #333;
-        border-radius: 0px;
-        resize: none;
-        font-weight: 400;
+    footer .bd-highlight a {
+        text-align: center;
     }
 
-    .contact-us .form .form-group label {
-        color: #333;
-        position: relative;
+    footer .social-customer {
+        margin-bottom: 24px;
+        text-align: center;
     }
 
-    .contact-us .form .form-group label span {
-        color: #e85d07;
-        display: inline-block;
-        position: absolute;
-        right: -12px;
-        top: 4px;
+    footer .footer-item {
+        margin-bottom: 18px;
+        text-align: center;
     }
-
-    .contact-us .form .button {
-        margin: 0;
-    }
-
-    .contact-us .form .button .btn {
-        height: 50px;
-        border: none;
-        color: rgb(255, 255, 255);
-        background-color: #e85d07;
-    }
-    /* End of MAIN */
-
-
-
-    /* FOOTER */
-    footer {
-        background-color: #e85d07;
-        padding: 0;
-    }
-
-    .footer-company {
-        padding-bottom: 32px;
-    }
-
-    .footer-copy {
-        background-color: #333;
-        padding-top: 18px;
-    }
-
-    /* End of FOOTER */
 }
+/*** End of MOBILE VERSION ***/

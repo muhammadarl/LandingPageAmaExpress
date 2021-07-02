@@ -71,23 +71,23 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://images.unsplash.com/photo-1533805994737-558461dcb28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        class="d-block w-100" alt="..." style="height:750px;" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
+                        class="d-block w-100" alt="..." class="d-block w-100" alt="..." height="800">
+                    <div class="carousel-caption d-md-block">
+                        <h2>First slide label</h2>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        class="d-block w-100" alt="..." style="height:750px;" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
+                        class="d-block w-100" alt="..." class="d-block w-100" alt="..." height="800">
+                    <div class="carousel-caption d-md-block">
+                        <h2>Second slide label</h2>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="https://images.unsplash.com/photo-1527965408463-82ae0731825c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        class="d-block w-100" alt="..." style="height:750px;"" class=" d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
+                        class="d-block w-100" alt="..." class=" d-block w-100" alt="..." height="800">
+                    <div class="carousel-caption d-md-block">
+                        <h2>Third slide label</h2>
                     </div>
                 </div>
             </div>
@@ -100,31 +100,6 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-									<h1 class="carousel-text">Lorem ipsum dolor sit amet.</h1>
-                    <img src="https://images.unsplash.com/photo-1533805994737-558461dcb28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        class="d-block w-100" alt="..." height="800">Lorem ipsum dolor sit amet.</img>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        class="d-block w-100" alt="..." height="800">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1527965408463-82ae0731825c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                        class="d-block w-100" alt="..." height="800">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div> -->
         <!-- End of CAROUSEL -->
     </header>
 
@@ -134,7 +109,7 @@
             <section class="fiturFitur mx-auto">
                 <div class="row d-flex flex-column align-items-center">
                     <div class="col fiturLacak">
-                        <h2><i class="uil uil-search"></i>Lacak Paket</h2>
+                        <h2><i class="uil uil-search"></i> Lacak Paket</h2>
                         <form action="">
                             <label for="">Nomor Resi</label>
                             <input type="text" class="form-control" placeholder="Masukan Nomor Resi"
@@ -174,9 +149,9 @@
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active text-justify" id="v-pills-home" role="tabpanel"
                                     aria-labelledby="v-pills-home-tab">
-                                    <h1 class="text-uppercase">Profil</h1>
+                                    <h2 class="text-uppercase">Profil</h2>
                                     <hr>
-                                    <h4 class="text-uppercase">PT. Almanthinu Artha</h4>
+                                    <h5 class="text-uppercase">PT. Almanthinu Artha</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
                                         ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
@@ -195,7 +170,7 @@
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-profile" role="tabpanel"
                                     aria-labelledby="v-pills-profile-tab">
-                                    <h1 class="text-uppercase">Visi & Misi</h1>
+                                    <h2 class="text-uppercase">Visi & Misi</h2>
                                     <hr>
                                     <div class="visi-misi d-flex flex-column">
                                         <h4 class="text-uppercase">Visi</h4>
@@ -213,7 +188,7 @@
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-messages" role="tabpanel"
                                     aria-labelledby="v-pills-messages-tab">
-                                    <h1 class="text-uppercase">Nilai-Nilai Perusahaan</h1>
+                                    <h2 class="text-uppercase">Nilai-Nilai Perusahaan</h2>
                                     <hr>
                                     <ol>
                                         <div class="item-nilai-perusahaan">
@@ -275,6 +250,7 @@
                                     aria-labelledby="v-pills-udara-tab">
                                     <h1 class="text-uppercase">Cargo Udara</h1>
                                     <hr>
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1573030889348-c6b0f8b15e40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcmdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
@@ -294,6 +270,7 @@
                                     aria-labelledby="v-pills-laut-tab">
                                     <h1 class="text-uppercase">Cargo Laut</h1>
                                     <hr>
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1573030889348-c6b0f8b15e40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcmdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
@@ -313,6 +290,7 @@
                                     aria-labelledby="v-pills-darat-tab">
                                     <h1 class="text-uppercase">Cargo Darat</h1>
                                     <hr>
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1573030889348-c6b0f8b15e40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcmdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
@@ -332,6 +310,7 @@
                                     aria-labelledby="v-pills-alatBerat-tab">
                                     <h1 class="text-uppercase">Penyewaan Alat Berat</h1>
                                     <hr>
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1573030889348-c6b0f8b15e40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcmdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
@@ -351,6 +330,7 @@
                                     aria-labelledby="v-pills-kapalICT-tab">
                                     <h1 class="text-uppercase">Penyewaan Kapal ICT</h1>
                                     <hr>
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1573030889348-c6b0f8b15e40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcmdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
@@ -370,6 +350,7 @@
                                     aria-labelledby="v-pills-gudang-tab">
                                     <h1 class="text-uppercase">Penyewaan Gudang</h1>
                                     <hr>
+                                    <img class="mb-4" src="https://images.unsplash.com/photo-1573030889348-c6b0f8b15e40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcmdvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="100%" alt="">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
@@ -438,52 +419,70 @@
         <section id="contact" class="contact-us section">
             <div class="container" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="contact-head">
-                    <div class="row">
-                        <div class="col-lg-8 col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 mr-lg-2">
                             <div class="form-main">
-                                <div class="title">
+                                <div class="title mb-4">
                                     <h4>Get in touch</h4>
-                                    <h3>Write us a message</h3>
+                                    <h3 class="text-capitalize">Write us a message</h3>
                                 </div>
                                 <form class="form" method="post" action="mail/mail.php">
                                     <div class="row">
-                                        <div class="col-lg-6 col-12">
+                                        <div class="col-lg-6">
                                             <div class="form-group">
                                                 <label>Nama Anda<span>*</span></label>
-                                                <input name="name" type="text" placeholder="">
+                                                <input class="form-control" name="name" type="text" placeholder="">
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-12">
+                                        <div class="col-lg-6">
                                             <div class="form-group">
                                                 <label>Email Anda<span>*</span></label>
-                                                <input name="email" type="email" placeholder="">
+                                                <input class="form-control" name="email" type="email" placeholder="">
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group message">
                                                 <label>Pesan Anda<span>*</span></label>
-                                                <textarea name="message" placeholder=""></textarea>
+                                                <textarea class="form-control" name="message" placeholder="" rows="6"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-12">
                                             <div class="form-group button">
-                                                <button type="submit" class="btn ">Send Message</button>
+                                                <button type="submit" class="btn btn-block">Send Message</button>
                                             </div>
                                         </div>
                                     </div>
                                 </form>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-12">
+                        <div class="col-lg-3">
                             <div class="single-head">
-                                <div class="single-info">
-                                    <i class="uil uil-phone-alt"></i>
-                                    <h4 class="title">No Telepon: <span>085235632221</span></h4>
-																		<h4 class="title">No Telepon: <span>021-548216</span></h4>
+                                <div class="single-info my-2">
+                                    <div class="d-flex">
+                                        <i class="uil uil-map-marker mr-3 mt-2"></i>
+                                        <div>
+                                            <h4><strong>Location:</strong></h4>
+                                            <p>Banten, Indonesia</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="single-info">
-                                    <i class="uil uil-map-marker"></i>
-                                    <h4 class="title">Alamat: <span>Banten, Indonesia</h4>
+                                <div class="single-info my-2">
+                                    <div class="d-flex">
+                                        <i class="uil uil-envelope mr-3 mt-2"></i>
+                                        <div>
+                                            <h4><strong>Email:</strong></h4>
+                                            <p>user@example.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-info my-2">
+                                    <div class="d-flex">
+                                        <i class="uil uil-phone-alt mr-3 mt-2"></i>
+                                        <div>
+                                            <h4><strong>Call:</strong></h4>
+                                            <p>+62 812 3456 7890</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -495,24 +494,24 @@
     </main>
 
     <footer>
-        <div class="container footer-company">
-            <div class="row">
+        <div class="container footer-company py-5">
+            <div class="row d-flex justify-content-lg-between">
                 <div class="col-lg-3 d-flex flex-column bd-highlight mb-3">
-                    <a href=""><img src="{{url('frontend/assets/logo.png')}}" alt="" class="footer__logo"></a>
-                    <p class="deskripsi-footer">
+                    <a href=""><img src="{{asset('frontend/img/logo.png')}}" alt="" class="footer__logo"></a>
+                    <p class="deskripsi-footer text-justify">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia architecto perferendis sit
                         libero
                         dolorum natus quod illo provident quidem quas ipsa deserunt similique, tempore molestiae.
                     </p>
                     <div class="social-customer">
-                        <a href=""><i class="uil uil-instagram icon__social-footer"></i></a>
+                        <a href=""><i class="uil uil-instagram icon__social-footer m-0"></i></a>
                         <a href=""><i class="uil uil-facebook-f icon__social-footer"></i></a>
                         <a href=""><i class="uil uil-twitter-alt icon__social-footer"></i></a>
                         <a href=""><i class="uil uil-envelope icon__social-footer"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <h1 class="title-footer">Lorem ipsum</h1>
+                <div class="col-lg-2 footer-item">
+                    <h4 class="title-footer"><strong>Item 1</strong></h4>
                     <ul class="list-group">
                         <li class="list-group-item-footer">An item</li>
                         <li class="list-group-item-footer">A second item</li>
@@ -521,8 +520,8 @@
                         <li class="list-group-item-footer">And a fifth one</li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
-                    <h1 class="title-footer">Lorem ipsum</h1>
+                <div class="col-lg-2 footer-item">
+                    <h4 class="title-footer"><strong>Item 2</strong></h4>
                     <ul class="list-group">
                         <li class="list-group-item-footer">An item</li>
                         <li class="list-group-item-footer">A second item</li>
@@ -531,8 +530,8 @@
                         <li class="list-group-item-footer">And a fifth one</li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
-                    <h1 class="title-footer">Lorem ipsum</h1>
+                <div class="col-lg-2 footer-item">
+                    <h4 class="title-footer"><strong>Item 3</strong></h4>
                     <ul class="list-group">
                         <li class="list-group-item-footer">An item</li>
                         <li class="list-group-item-footer">A second item</li>
