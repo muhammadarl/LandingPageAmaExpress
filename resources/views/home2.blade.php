@@ -93,7 +93,6 @@
                 <div class="row d-flex flex-column align-items-center">
                     <div class="col fiturLacak">
                         <h2><i class="uil uil-search"></i>Lacak Paket</h2>
-                        <p>Lorem ipsum dolor sit amet.</p>
                         <form action="">
                             <label for="">Nomor Resi</label>
                             <input type="text" class="form-control" placeholder="Masukan Nomor Resi"
@@ -123,7 +122,7 @@
                                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                                     role="tab" aria-controls="v-pills-home" aria-selected="true">Profil</a>
                                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
-                                    role="tab" aria-controls="v-pills-profile" aria-selected="false">Visi & Misi </a>
+                                    role="tab" aria-controls="v-pills-profile" aria-selected="false">Visi & Misi</a>
                                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
                                     role="tab" aria-controls="v-pills-messages" aria-selected="false">Nilai-Nilai
                                     Perusahaan</a>
@@ -369,7 +368,7 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-12">
                                             <div class="form-group">
-                                                <label>Nama Amda<span>*</span></label>
+                                                <label>Nama Anda<span>*</span></label>
                                                 <input name="name" type="text" placeholder="">
                                             </div>
                                         </div>
