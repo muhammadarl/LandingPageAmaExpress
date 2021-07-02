@@ -398,18 +398,10 @@
                                 <div class="single-info">
                                     <i class="uil uil-phone-alt"></i>
                                     <h4 class="title">No Telepon:</h4>
-                                    <ul>
+																			<ul>
                                         <li>+62 518452</li>
                                         <li>021 5215201</li>
-                                    </ul>
-                                </div>
-                                <div class="single-info">
-                                    <i class="uil uil-envelope"></i>
-                                    <h4 class="title">Email:</h4>
-                                    <ul>
-                                        <li><a href="#">info@company.com</a></li>
-                                        <li><a href="#">support@company.com</a></li>
-                                    </ul>
+																			</ul>
                                 </div>
                                 <div class="single-info">
                                     <i class="uil uil-map-marker"></i>
@@ -441,6 +433,7 @@
                         <a href=""><i class="uil uil-instagram icon__social-footer"></i></a>
                         <a href=""><i class="uil uil-facebook-f icon__social-footer"></i></a>
                         <a href=""><i class="uil uil-twitter-alt icon__social-footer"></i></a>
+												<a href=""><i class="uil uil-envelope icon__social-footer"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3">

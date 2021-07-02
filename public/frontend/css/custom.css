@@ -64,7 +64,11 @@
 }
 
 .fiturFitur {
-    width: 50%;
+    width: 80%;
+}
+
+.fiturFitur h2{
+	font-size: 30px;
 }
 
 .logo_nav {
@@ -119,7 +123,7 @@
 }
 
 .contact-us .title h4 {
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 500;
     margin-bottom: 5px;
     color: #e85d07;
@@ -131,11 +135,16 @@
     font-weight: 600;
 }
 
+.contact-us .contact-head .single-head h4 ul li{
+	font-size: 12px;
+}
+
 .contact-us .single-head {
     padding: 50px;
     box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     height: 98.5%;
     border-radius: 10px;
+		display: flex;
 }
 
 .contact-us .single-info {
@@ -166,7 +175,7 @@
 }
 
 .contact-us .single-info ul li a {
-    font-weight: 400;
+    font-size: 12px;
 }
 
 .contact-us .single-info ul li a:hover {
@@ -175,9 +184,8 @@
 
 .contact-us .single-info .title {
     margin-bottom: 10px;
-    font-weight: 500;
-    color: #333;
-    font-size: 18px;
+    color: rgb(3, 3, 3);
+    font-size: 15px;
 }
 
 .contact-us .form-main {
@@ -392,8 +400,9 @@ footer {
     .contact-us .single-head {
         padding: 50px;
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
-        height: 98.5%;
+        height: 100%;
         border-radius: 10px;
+				flex-direction: column;
     }
 
     .contact-us .single-info {
@@ -440,7 +449,7 @@ footer {
 
     .contact-us .form-main {
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
-        padding: 50px;
+        padding: 73px;
         border-radius: 10px;
     }
 
