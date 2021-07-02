@@ -65,13 +65,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://images.unsplash.com/photo-1533805994737-558461dcb28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="800">
+                    <img src="https://images.unsplash.com/photo-1533805994737-558461dcb28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="800">
+                    <img src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1527965408463-82ae0731825c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="800">
+                    <img src="https://images.unsplash.com/photo-1527965408463-82ae0731825c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -116,23 +116,24 @@
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3 my-3">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
-                                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                <a class="nav-link ml-0 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
                                     role="tab" aria-controls="v-pills-home" aria-selected="true">Profil</a>
-                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                <a class="nav-link ml-0" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                     role="tab" aria-controls="v-pills-profile" aria-selected="false">Visi & Misi</a>
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                                <a class="nav-link ml-0" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
                                     role="tab" aria-controls="v-pills-messages" aria-selected="false">Nilai-Nilai
                                     Perusahaan</a>
                             </div>
                         </div>
-                        <div class="col-9">
+                        <div class="col-md-9">
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active text-justify" id="v-pills-home" role="tabpanel"
                                     aria-labelledby="v-pills-home-tab">
                                     <h1 class="text-uppercase">Profil</h1>
+                                    <hr>
                                     <h4 class="text-uppercase">PT. Almanthinu Artha</h4>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
@@ -148,14 +149,15 @@
                                 <div class="tab-pane fade text-justify" id="v-pills-profile" role="tabpanel"
                                     aria-labelledby="v-pills-profile-tab">
                                     <h1 class="text-uppercase">Visi & Misi</h1>
-                                    <div class="visi-misi d-flex flex-column align-items-center">
+                                    <hr>
+                                    <div class="visi-misi d-flex flex-column">
                                         <h4 class="text-uppercase">Visi</h4>
-                                        <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                             Possimus ipsam ad
                                             numquam quaerat voluptatum quas, voluptas magnam! Minus alias voluptate,
                                             expedita rem odit laboriosam optio!</p>
                                         <h4 class="text-uppercase">Misi</h4>
-                                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Tenetur itaque neque quo animi, dolores nobis sint placeat ut non error sit
                                             repellendus voluptas ducimus voluptatibus delectus repellat dolore distinctio
                                             molestiae.</p>
@@ -163,7 +165,8 @@
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-messages" role="tabpanel"
                                     aria-labelledby="v-pills-messages-tab">
-                                    <h1 class="text-uppercase">nilai-nilai perusahaan</h1>
+                                    <h1 class="text-uppercase">Nilai-Nilai Perusahaan</h1>
+                                    <hr>
                                     <ol>
                                         <div class="item-nilai-perusahaan">
                                             <li>Lorem ipsum dolor sit amet.</li>
@@ -201,28 +204,29 @@
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3 my-3">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
-                                <a class="nav-link active" id="v-pills-udara-tab" data-toggle="pill" href="#v-pills-udara"
+                                <a class="nav-link ml-0 active" id="v-pills-udara-tab" data-toggle="pill" href="#v-pills-udara"
                                     role="tab" aria-controls="v-pills-udara" aria-selected="true">Cargo Udara</a>
-                                <a class="nav-link" id="v-pills-laut-tab" data-toggle="pill" href="#v-pills-laut"
+                                <a class="nav-link ml-0" id="v-pills-laut-tab" data-toggle="pill" href="#v-pills-laut"
                                     role="tab" aria-controls="v-pills-laut" aria-selected="false">Cargo Laut</a>
-                                <a class="nav-link" id="v-pills-darat-tab" data-toggle="pill" href="#v-pills-darat"
+                                <a class="nav-link ml-0" id="v-pills-darat-tab" data-toggle="pill" href="#v-pills-darat"
                                     role="tab" aria-controls="v-pills-darat" aria-selected="false">Cargo Darat</a>
-                                <a class="nav-link" id="v-pills-alatBerat-tab" data-toggle="pill" href="#v-pills-alatBerat"
+                                <a class="nav-link ml-0" id="v-pills-alatBerat-tab" data-toggle="pill" href="#v-pills-alatBerat"
                                     role="tab" aria-controls="v-pills-alatBerat" aria-selected="false">Penyewaan Alat Berat</a>
-                                <a class="nav-link" id="v-pills-kapalICT-tab" data-toggle="pill" href="#v-pills-kapalICT"
+                                <a class="nav-link ml-0" id="v-pills-kapalICT-tab" data-toggle="pill" href="#v-pills-kapalICT"
                                     role="tab" aria-controls="v-pills-kapalICT" aria-selected="false">Penyewaan Kapal LCT</a>
-                                <a class="nav-link" id="v-pills-gudang-tab" data-toggle="pill" href="#v-pills-gudang"
+                                <a class="nav-link ml-0" id="v-pills-gudang-tab" data-toggle="pill" href="#v-pills-gudang"
                                     role="tab" aria-controls="v-pills-gudang" aria-selected="false">Penyewaan Gudang</a>
                             </div>
                         </div>
-                        <div class="col-9">
+                        <div class="col-md-9">
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active text-justify" id="v-pills-udara" role="tabpanel"
                                     aria-labelledby="v-pills-udara-tab">
                                     <h1 class="text-uppercase">Cargo Udara</h1>
+                                    <hr>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
@@ -237,6 +241,7 @@
                                 <div class="tab-pane fade text-justify" id="v-pills-laut" role="tabpanel"
                                     aria-labelledby="v-pills-laut-tab">
                                     <h1 class="text-uppercase">Cargo Laut</h1>
+                                    <hr>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
@@ -251,6 +256,7 @@
                                 <div class="tab-pane fade text-justify" id="v-pills-darat" role="tabpanel"
                                     aria-labelledby="v-pills-darat-tab">
                                     <h1 class="text-uppercase">Cargo Darat</h1>
+                                    <hr>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
@@ -265,6 +271,7 @@
                                 <div class="tab-pane fade text-justify" id="v-pills-alatBerat" role="tabpanel"
                                     aria-labelledby="v-pills-alatBerat-tab">
                                     <h1 class="text-uppercase">Penyewaan Alat Berat</h1>
+                                    <hr>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
@@ -279,6 +286,7 @@
                                 <div class="tab-pane fade text-justify" id="v-pills-kapalICT" role="tabpanel"
                                     aria-labelledby="v-pills-kapalICT-tab">
                                     <h1 class="text-uppercase">Penyewaan Kapal ICT</h1>
+                                    <hr>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
@@ -293,6 +301,7 @@
                                 <div class="tab-pane fade text-justify" id="v-pills-gudang" role="tabpanel"
                                     aria-labelledby="v-pills-gudang-tab">
                                     <h1 class="text-uppercase">Penyewaan Gudang</h1>
+                                    <hr>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
                                         architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est

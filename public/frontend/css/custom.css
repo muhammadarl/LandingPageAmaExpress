@@ -28,8 +28,9 @@
         transform: scale(1);
     }
 }
-
 /* End of PRELOADER */
+
+
 
 /* HEADER */
 .navbar {
@@ -47,12 +48,11 @@
     color: #fafafa !important;
 }
 
-/* End of HEADER */
-
-/* CAROUSEL */
 .carousel-inner {
     height: 350px;
 }
+/* End of HEADER */
+
 
 
 /* MAIN */
@@ -72,42 +72,29 @@
 }
 
 .profile-company {
-    padding: 20vh 0;
+    padding: 25vh 0;
 }
 
-.profile-company h1 {
-    font-size: 25px;
+.profile-company .nav-link.active {
+    background-color: #e85d07 !important;
 }
 
 .profile-company .nav-link {
-    font-size: 12px;
-}
-
-.profile-company .tab-content {
-    margin-left: 30px;
-    font-size: 12px;
-}
-
-.profile-company .tab-content .text-uppercase {
-    font-size: 15px;
+    color: #e85d07;
 }
 
 .service-company {
     background-color: #e85d07;
-    padding: 20vh 0;
+    padding: 25vh 0;
+}
+
+.service-company .nav-link.active {
+    color: #e85d07 !important;
+    background-color: #fff !important;
 }
 
 .service-company .nav-link {
-	font-size: 12px;
-}
-
-.service-company .tab-content {
-	margin-left: 30px;
-    font-size: 12px;
-}
-
-.service-company .deskripsi-perusahaan h1 {
-    font-size: 25px;
+    color: #fff;
 }
 
 .contact-us {
@@ -119,14 +106,11 @@
 }
 
 .contact-us .title h4 {
-    font-size: 17px;
-    font-weight: 500;
     margin-bottom: 5px;
     color: #e85d07;
 }
 
 .contact-us .title h3 {
-    font-size: 25px;
     text-transform: capitalize;
     font-weight: 600;
 }
@@ -145,7 +129,6 @@
 
 .contact-us .single-info i {
     color: #fff;
-    font-size: 25px;
     display: inline-block;
     margin-bottom: 15px;
     height: 40px;
@@ -219,7 +202,6 @@
     position: absolute;
     right: -12px;
     top: 4px;
-    font-size: 16px;
 }
 
 .contact-us .form .button {
@@ -232,7 +214,6 @@
     color: rgb(255, 255, 255);
     background-color: #e85d07;
 }
-
 /* End of MAIN */
 
 
@@ -251,43 +232,10 @@ footer {
     background-color: #333;
     padding-top: 18px;
 }
-
 /* End of FOOTER */
 
 /* Dekstop Version */
 @media (min-width: 992px) {
-    .preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 9999;
-        background-color: #e85d07;
-        display: grid;
-    }
-
-    .preloader .loading {
-        margin: auto;
-        animation: loader 2s infinite ease;
-    }
-
-    @keyframes loader {
-        0% {
-            transform: scale(1);
-        }
-
-        50% {
-            transform: scale(1.5);
-        }
-
-        100% {
-            transform: scale(1);
-        }
-    }
-
-    /* End of PRELOADER */
-
     /* CAROUSEL */
     .carousel-inner {
         height: 750px;
@@ -308,7 +256,6 @@ footer {
     .navbar.scrolled .brand {
         color: #fafafa !important;
     }
-
     /* End of HEADER */
 
     /* MAIN */
@@ -327,46 +274,10 @@ footer {
         width: 150px;
     }
 
-    .profile-company {
-        padding: 20vh 0;
-        margin-bottom: 5px;
-    }
-
-    .profile-company h1 {
-        font-size: 35px;
-    }
-
-    .profile-company .nav-link {
-        font-size: 20px;
-        size: 50px;
-    }
-
-    .profile-company .tab-content {
-        margin-left: 30px;
-        font-size: 20px;
-    }
-
-    .profile-company .tab-content .text-uppercase {
-        font-size: 20px;
-    }
-
     .service-company {
         background-color: #e85d07;
         padding: 20vh 0;
     }
-
-		.service-company .nav-link {
-			font-size: 20px;
-		}
-
-		.service-company .tab-content {
-			margin-left: 30px;
-				font-size: 20px;
-		}
-
-		.service-company .deskripsi-perusahaan h1 {
-			font-size: 35px;
-	}
 
     .contact-us {
         padding: 20vh 0;
@@ -377,14 +288,12 @@ footer {
     }
 
     .contact-us .title h4 {
-        font-size: 17px;
         font-weight: 500;
         margin-bottom: 5px;
         color: #e85d07;
     }
 
     .contact-us .title h3 {
-        font-size: 25px;
         text-transform: capitalize;
         font-weight: 600;
     }
@@ -403,7 +312,6 @@ footer {
 
     .contact-us .single-info i {
         color: #fff;
-        font-size: 25px;
         display: inline-block;
         margin-bottom: 15px;
         height: 40px;
@@ -435,7 +343,6 @@ footer {
         margin-bottom: 10px;
         font-weight: 500;
         color: #333;
-        font-size: 18px;
     }
 
     .contact-us .form-main {
@@ -477,7 +384,6 @@ footer {
         position: absolute;
         right: -12px;
         top: 4px;
-        font-size: 16px;
     }
 
     .contact-us .form .button {
@@ -490,7 +396,6 @@ footer {
         color: rgb(255, 255, 255);
         background-color: #e85d07;
     }
-
     /* End of MAIN */
 
 
