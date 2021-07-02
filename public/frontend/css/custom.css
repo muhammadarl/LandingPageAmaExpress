@@ -54,6 +54,11 @@
     height: 350px;
 }
 
+.carousel-inner .carousel-item h5 {
+    margin-bottom: 90%;
+    font-size: 50px;
+}
+
 
 /* MAIN */
 .fiturLacak {
@@ -67,8 +72,8 @@
     width: 80%;
 }
 
-.fiturFitur h2{
-	font-size: 30px;
+.fiturFitur h2 {
+    font-size: 30px;
 }
 
 .logo_nav {
@@ -102,11 +107,11 @@
 }
 
 .service-company .nav-link {
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .service-company .tab-content {
-	margin-left: 30px;
+    margin-left: 30px;
     font-size: 12px;
 }
 
@@ -135,16 +140,22 @@
     font-weight: 600;
 }
 
-.contact-us .contact-head .single-head h4 ul li{
-	font-size: 12px;
+.contact-us .contact-head .single-head h4 ul li {
+    font-size: 12px;
 }
 
 .contact-us .single-head {
     padding: 50px;
-    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     height: 98.5%;
-    border-radius: 10px;
-		display: flex;
+    display: flex;
+}
+
+.contact-us .single-head .single-info h4 {
+	font-weight: 700;
+}
+
+.contact-us .single-head .single-info span {
+	font-weight: 350;
 }
 
 .contact-us .single-info {
@@ -301,6 +312,11 @@ footer {
         height: 750px;
     }
 
+    .carousel-inner .carousel-item h5 {
+        margin-bottom: 30%;
+        font-size: 50px;
+    }
+
     /* HEADER */
     .navbar {
         transition: background-color 200ms linear;
@@ -363,18 +379,18 @@ footer {
         padding: 20vh 0;
     }
 
-		.service-company .nav-link {
-			font-size: 20px;
-		}
+    .service-company .nav-link {
+        font-size: 20px;
+    }
 
-		.service-company .tab-content {
-			margin-left: 30px;
-				font-size: 20px;
-		}
+    .service-company .tab-content {
+        margin-left: 30px;
+        font-size: 20px;
+    }
 
-		.service-company .deskripsi-perusahaan h1 {
-			font-size: 35px;
-	}
+    .service-company .deskripsi-perusahaan h1 {
+        font-size: 35px;
+    }
 
     .contact-us {
         padding: 20vh 0;
@@ -402,7 +418,15 @@ footer {
         box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
         height: 100%;
         border-radius: 10px;
-				flex-direction: column;
+        flex-direction: column;
+    }
+
+    .contact-us .single-head .single-info h4 {
+        font-weight: 700;
+    }
+
+    .contact-us .single-head .single-info span {
+        font-weight: 350;
     }
 
     .contact-us .single-info {

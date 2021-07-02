@@ -62,16 +62,58 @@
         <!-- End of NAVBAR -->
 
         <!-- CAROUSEL -->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://images.unsplash.com/photo-1533805994737-558461dcb28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="800">
+                    <img src="https://images.unsplash.com/photo-1533805994737-558461dcb28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100" alt="..." style="height:750px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="800">
+                    <img src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100" alt="..." style="height:750px;" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://images.unsplash.com/photo-1527965408463-82ae0731825c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="..." height="800">
+                    <img src="https://images.unsplash.com/photo-1527965408463-82ae0731825c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100" alt="..." style="height:750px;"" class=" d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+									<h1 class="carousel-text">Lorem ipsum dolor sit amet.</h1>
+                    <img src="https://images.unsplash.com/photo-1533805994737-558461dcb28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100" alt="..." height="800">Lorem ipsum dolor sit amet.</img>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100" alt="..." height="800">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1527965408463-82ae0731825c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb25lc2lhfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="d-block w-100" alt="..." height="800">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -82,10 +124,10 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
+        </div> -->
         <!-- End of CAROUSEL -->
     </header>
-    
+
     <main>
         <!-- FITUR LACAK PAKET -->
         <div class="container" data-aos="fade-up" data-aos-duration="1000">
@@ -123,8 +165,9 @@
                                     role="tab" aria-controls="v-pills-home" aria-selected="true">Profil</a>
                                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
                                     role="tab" aria-controls="v-pills-profile" aria-selected="false">Visi & Misi</a>
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
-                                    role="tab" aria-controls="v-pills-messages" aria-selected="false">Nilai-Nilai
+                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
+                                    href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                    aria-selected="false">Nilai-Nilai
                                     Perusahaan</a>
                             </div>
                         </div>
@@ -134,15 +177,20 @@
                                     aria-labelledby="v-pills-home-tab">
                                     <h1 class="text-uppercase">Profil</h1>
                                     <h4 class="text-uppercase">PT. Almanthinu Artha</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
+                                        ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
-                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
+                                        est
                                         temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
-                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum
+                                        corrupti
                                         iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
-                                        Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                        Blanditiis inventore consectetur molestias dolor provident sit maiores,
+                                        excepturi
                                         quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
-                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi
+                                        commodi
                                         numquam totam neque alias officia?</p>
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-profile" role="tabpanel"
@@ -157,7 +205,8 @@
                                         <h4 class="text-uppercase">Misi</h4>
                                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             Tenetur itaque neque quo animi, dolores nobis sint placeat ut non error sit
-                                            repellendus voluptas ducimus voluptatibus delectus repellat dolore distinctio
+                                            repellendus voluptas ducimus voluptatibus delectus repellat dolore
+                                            distinctio
                                             molestiae.</p>
                                     </div>
                                 </div>
@@ -189,7 +238,7 @@
             </div>
         </section>
         <!-- End of TENTANG KAMI -->
-        
+
         <!-- LAYANAN -->
         <section class="service-company" id="service">
             <div class="container" data-aos="fade-up" data-aos-duration="1000">
@@ -204,16 +253,19 @@
                         <div class="col-3">
                             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
-                                <a class="nav-link active" id="v-pills-udara-tab" data-toggle="pill" href="#v-pills-udara"
-                                    role="tab" aria-controls="v-pills-udara" aria-selected="true">Cargo Udara</a>
+                                <a class="nav-link active" id="v-pills-udara-tab" data-toggle="pill"
+                                    href="#v-pills-udara" role="tab" aria-controls="v-pills-udara"
+                                    aria-selected="true">Cargo Udara</a>
                                 <a class="nav-link" id="v-pills-laut-tab" data-toggle="pill" href="#v-pills-laut"
                                     role="tab" aria-controls="v-pills-laut" aria-selected="false">Cargo Laut</a>
                                 <a class="nav-link" id="v-pills-darat-tab" data-toggle="pill" href="#v-pills-darat"
                                     role="tab" aria-controls="v-pills-darat" aria-selected="false">Cargo Darat</a>
-                                <a class="nav-link" id="v-pills-alatBerat-tab" data-toggle="pill" href="#v-pills-alatBerat"
-                                    role="tab" aria-controls="v-pills-alatBerat" aria-selected="false">Penyewaan Alat Berat</a>
-                                <a class="nav-link" id="v-pills-kapalICT-tab" data-toggle="pill" href="#v-pills-kapalICT"
-                                    role="tab" aria-controls="v-pills-kapalICT" aria-selected="false">Penyewaan Kapal LCT</a>
+                                <a class="nav-link" id="v-pills-alatBerat-tab" data-toggle="pill"
+                                    href="#v-pills-alatBerat" role="tab" aria-controls="v-pills-alatBerat"
+                                    aria-selected="false">Penyewaan Alat Berat</a>
+                                <a class="nav-link" id="v-pills-kapalICT-tab" data-toggle="pill"
+                                    href="#v-pills-kapalICT" role="tab" aria-controls="v-pills-kapalICT"
+                                    aria-selected="false">Penyewaan Kapal LCT</a>
                                 <a class="nav-link" id="v-pills-gudang-tab" data-toggle="pill" href="#v-pills-gudang"
                                     role="tab" aria-controls="v-pills-gudang" aria-selected="false">Penyewaan Gudang</a>
                             </div>
@@ -223,85 +275,115 @@
                                 <div class="tab-pane fade show active text-justify" id="v-pills-udara" role="tabpanel"
                                     aria-labelledby="v-pills-udara-tab">
                                     <h1 class="text-uppercase">Cargo Udara</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
+                                        ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
-                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
+                                        est
                                         temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
-                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum
+                                        corrupti
                                         iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
-                                        Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                        Blanditiis inventore consectetur molestias dolor provident sit maiores,
+                                        excepturi
                                         quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
-                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi
+                                        commodi
                                         numquam totam neque alias officia?</p>
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-laut" role="tabpanel"
                                     aria-labelledby="v-pills-laut-tab">
                                     <h1 class="text-uppercase">Cargo Laut</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
+                                        ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
-                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
+                                        est
                                         temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
-                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum
+                                        corrupti
                                         iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
-                                        Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                        Blanditiis inventore consectetur molestias dolor provident sit maiores,
+                                        excepturi
                                         quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
-                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi
+                                        commodi
                                         numquam totam neque alias officia?</p>
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-darat" role="tabpanel"
                                     aria-labelledby="v-pills-darat-tab">
                                     <h1 class="text-uppercase">Cargo Darat</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
+                                        ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
-                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
+                                        est
                                         temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
-                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum
+                                        corrupti
                                         iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
-                                        Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                        Blanditiis inventore consectetur molestias dolor provident sit maiores,
+                                        excepturi
                                         quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
-                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi
+                                        commodi
                                         numquam totam neque alias officia?</p>
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-alatBerat" role="tabpanel"
                                     aria-labelledby="v-pills-alatBerat-tab">
                                     <h1 class="text-uppercase">Penyewaan Alat Berat</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
+                                        ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
-                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
+                                        est
                                         temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
-                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum
+                                        corrupti
                                         iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
-                                        Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                        Blanditiis inventore consectetur molestias dolor provident sit maiores,
+                                        excepturi
                                         quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
-                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi
+                                        commodi
                                         numquam totam neque alias officia?</p>
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-kapalICT" role="tabpanel"
                                     aria-labelledby="v-pills-kapalICT-tab">
                                     <h1 class="text-uppercase">Penyewaan Kapal ICT</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
+                                        ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
-                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
+                                        est
                                         temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
-                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum
+                                        corrupti
                                         iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
-                                        Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                        Blanditiis inventore consectetur molestias dolor provident sit maiores,
+                                        excepturi
                                         quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
-                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi
+                                        commodi
                                         numquam totam neque alias officia?</p>
                                 </div>
                                 <div class="tab-pane fade text-justify" id="v-pills-gudang" role="tabpanel"
                                     aria-labelledby="v-pills-gudang-tab">
                                     <h1 class="text-uppercase">Penyewaan Gudang</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora ex
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo tempora
+                                        ex
                                         alias. Exercitationem provident qui sunt suscipit quibusdam maxime illo porro
-                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam, est
+                                        architecto facere explicabo! Quaerat voluptatibus sunt ad eos provident aperiam,
+                                        est
                                         temporibus obcaecati accusamus eius sed atque architecto reiciendis deserunt eum
-                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum corrupti
+                                        odio, perferendis accusantium neque iste. Exercitationem aut, aliquam rerum
+                                        corrupti
                                         iure nam culpa eum sed, blanditiis, cupiditate ut ea praesentium a eveniet?
-                                        Blanditiis inventore consectetur molestias dolor provident sit maiores, excepturi
+                                        Blanditiis inventore consectetur molestias dolor provident sit maiores,
+                                        excepturi
                                         quia exercitationem facere, iusto sint vero amet beatae quaerat consequuntur
-                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi commodi
+                                        similique voluptatem ducimus id rem. Ipsa, reprehenderit mollitia. Qui nisi
+                                        commodi
                                         numquam totam neque alias officia?</p>
                                 </div>
                             </div>
@@ -397,18 +479,12 @@
                             <div class="single-head">
                                 <div class="single-info">
                                     <i class="uil uil-phone-alt"></i>
-                                    <h4 class="title">No Telepon:</h4>
-																			<ul>
-                                        <li>+62 518452</li>
-                                        <li>021 5215201</li>
-																			</ul>
+                                    <h4 class="title">No Telepon: <span>085235632221</span></h4>
+																		<h4 class="title">No Telepon: <span>021-548216</span></h4>
                                 </div>
                                 <div class="single-info">
                                     <i class="uil uil-map-marker"></i>
-                                    <h4 class="title">Alamat:</h4>
-                                    <ul>
-                                        <li>Banten, Indonesia</li>
-                                    </ul>
+                                    <h4 class="title">Alamat: <span>Banten, Indonesia</h4>
                                 </div>
                             </div>
                         </div>
@@ -418,7 +494,7 @@
         </section>
         <!-- End of KONTAK -->
     </main>
-    
+
     <footer>
         <div class="container footer-company">
             <div class="row">
@@ -433,7 +509,7 @@
                         <a href=""><i class="uil uil-instagram icon__social-footer"></i></a>
                         <a href=""><i class="uil uil-facebook-f icon__social-footer"></i></a>
                         <a href=""><i class="uil uil-twitter-alt icon__social-footer"></i></a>
-												<a href=""><i class="uil uil-envelope icon__social-footer"></i></a>
+                        <a href=""><i class="uil uil-envelope icon__social-footer"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3">
@@ -488,5 +564,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
     </script>
+
 </html>
