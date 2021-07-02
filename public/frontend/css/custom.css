@@ -1,9 +1,11 @@
+/* HEADER */
 .navbar {
     transition: background-color 200ms linear;
 }
 
 .navbar.scrolled {
     background-color: #e85d07 !important;
+	box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
     transition: background-color 200ms linear;
 }
 
@@ -11,7 +13,11 @@
 .navbar.scrolled .brand {
     color: #fafafa !important;
 }
+/* End of HEADER */
 
+
+
+/* MAIN */
 .fiturLacak {
     border-radius: 10px;
     padding-left: 40px;
@@ -28,19 +34,16 @@
 }
 
 .profile-company {
-    margin: 64px 0;
+    padding: 20vh 0;
 }
 
 .service-company {
     background-color: #e85d07;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding: 20vh 0;
 }
 
-/* Contact */
 .contact-us {
-	position: relative;
-	z-index: 43;
+	padding: 20vh 0;
 }
 
 .contact-us .title {
@@ -62,8 +65,9 @@
 
 .contact-us .single-head {
 	padding: 50px;
-	box-shadow: 0px 0px 15px #0000001a;
+	box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
 	height: 98.5%;
+	border-radius: 10px;
 }
 
 .contact-us .single-info {
@@ -109,8 +113,9 @@
 }
 
 .contact-us .form-main {
-	box-shadow: 0px 0px 15px #0000001a;
+	box-shadow: 0 3px 1rem rgba(0, 0, 0, .1);
 	padding: 50px;
+	border-radius: 10px;
 }
 
 .contact-us .form .form-group input {
@@ -159,8 +164,22 @@
     color: rgb(255, 255, 255);
     background-color:#e85d07 ;
 }
+/* End of MAIN */
 
-/* footer */
+
+
+/* FOOTER */
 footer {
-    margin-top: 50px;
+	background-color: #e85d07;
+	padding: 0;
 }
+
+.footer-company {
+	padding-bottom: 32px;
+}
+
+.footer-copy {
+	background-color: #333;
+	padding-top: 18px;
+}
+/* End of FOOTER */
