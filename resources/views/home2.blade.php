@@ -425,7 +425,7 @@
                 </div>
             </div>
         </section>
-        <!-- End of CONTACT -->
+        <!-- End of KONTAK -->
     </main>
     
     <footer>
